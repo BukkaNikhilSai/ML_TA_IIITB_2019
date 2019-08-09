@@ -192,6 +192,122 @@ data.pivot_table(values='SepalLengthCm', index='Species', aggfunc=np.mean)
 
 # In[24]:
 
+#Importing pyplot
+from matplotlib import pyplot as plt
+
+#Plotting to our canvas
+plt.plot([1,2,3],[4,5,1])
+
+#Showing what we plotted
+plt.show()
+
+# In[25]:
+
+#better way is to pass data as variables
+
+x = [5,8,10]
+y = [12,16,6]
+
+plt.plot(x,y)
+
+plt.title('Line Graph')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+
+plt.show()
+
+# In[26]:
+
+x = [5,8,10]
+y = [12,16,6]
+
+x2 = [6,9,11]
+y2 = [6,15,7]
+
+# can plot specifically, after just showing the defaults:
+plt.plot(x,y,linewidth=5)
+plt.plot(x2,y2,linewidth=5)
+
+plt.title('Line Graph')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+
+plt.show()
+
+# In[27]:
+
+plt.plot(x,y,'g',label='line one', linewidth=5)
+plt.plot(x2,y2,'c',label='line two',linewidth=5)
+
+plt.title('Line Graph')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+
+plt.legend()
+
+plt.grid(True,color='grey')
+
+plt.show()
+
+# In[28]:
+
+#bar graph
+
+x = [5,8,10]
+y = [12,16,6]
+
+x2 = [6,9,11]
+y2 = [6,15,7]
+
+plt.bar(x, y, align='center')
+
+plt.bar(x2, y2, color='g', align='center')
+
+
+plt.title('Bar Graph')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+
+plt.show()
+
+# In[29]:
+
+#scatter plot
+x = [5,8,10]
+y = [12,16,6]
+
+x2 = [6,9,11]
+y2 = [6,15,7]
+
+plt.scatter(x, y)
+
+plt.scatter(x2, y2, color='g')
+
+
+plt.title('Scatter Plot')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+
+plt.show()
+
+# In[30]:
+
+#Graph from data stored in CSV file
+
+x,y = np.loadtxt('dataFile.csv',
+                 unpack=True,
+                 delimiter = ',')
+
+plt.plot(x,y)
+
+plt.title('Graph from data stored in CSV file')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+
+plt.show()
+
+# In[31]:
+
 ax = data[data.Species=='Iris-setosa'].plot.scatter(x='SepalLengthCm', y='SepalWidthCm', color='red', label='Setosa')
 data[data.Species=='Iris-versicolor'].plot.scatter(x='SepalLengthCm', y='SepalWidthCm', color='green', label='Versicolor', ax = ax)
 data[data.Species=='Iris-virginica'].plot.scatter(x='SepalLengthCm', y='SepalWidthCm', color='blue', label='Virginica', ax = ax)
