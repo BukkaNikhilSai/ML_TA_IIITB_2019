@@ -1,0 +1,27 @@
+Build a machine learning model to accurately classify whether or not the patients in the dataset have diabetes or not?	
+
+
+You will be evaluated on how well you perform the following steps:
+	Missing data handling
+	Data Preprocessing (with an explanation of why you are doing that particular step).
+	Exploratory Data Analysis
+	Features Extraction
+	Model building
+	Code Commenting
+	Documentation
+
+What to submit:
+	A python file or Jupyter File with code and comments.
+	Detailed documentation of all the steps and results.  
+
+Submission details : 
+	Compress all the files and submit the compressed file with name as RollNo1_RollNo2_RollNo3.zip 
+	Send the compressed file to 'iiitb.ml.2019@gmail.com' with Subject as Assignemnt_1_RollNo1_RollNo2_RollNo3 
+	Deadline : 11:59:00 PM 15th Septemnber 2019 
+
+Note:
+	Maximum size of the group is 3. 
+	Late submission of the assignment will result in marks deduction.
+	Any Plagiarism found will result in Zero marks for the assignment.
+
+	For any doubts write to 'iiitb.ml.2019@gmail.com' with Subject as "Doubt clarification"
