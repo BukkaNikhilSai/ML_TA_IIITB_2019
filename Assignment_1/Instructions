@@ -19,6 +19,7 @@ Submission details :
 	Send the compressed file to 'iiitb.ml.2019@gmail.com' with Subject as Assignemnt_1_RollNo1_RollNo2_RollNo3 
 	Deadline : 11:59:00 PM 15th Septemnber 2019 
 
+
 Some details about the dataset:
 
      Pregnancies: Number of times pregnant
@@ -36,9 +37,16 @@ Some details about the dataset:
      DiabetesPedigreeFunction:
           It provided some data on diabetes mellitus history in relatives and the genetic relationship of those relatives to the patient. This measure of genetic influence gives an idea of the hereditary risk one might have with the onset of diabetes mellitus.
 
+
+On request from many student here is an example of data handling in iris flower dataset:
+    If you find petal length to be practically not possible value. It is up to you to either drop the datapoint or replace the value of the data point with some value which you feel most appropriative(reason should be mentioned in the documentation).
+
+
 Note:
-	Maximum size of the group is 3. 
-	Late submission of the assignment will result in marks deduction.
-	Any Plagiarism found will result in Zero marks for the assignment.
+	a) The more you play around with the data the more you get a better understanding of it.	
+	b) Maximum size of the group is 3. 
+	c) Late submission of the assignment will result in marks deduction.
+	d) Any Plagiarism found will result in Zero marks for the assignment.
 
 	For any doubts write to 'iiitb.ml.2019@gmail.com' with Subject as "Doubt clarification"
+
