@@ -1,0 +1,52 @@
+Build a machine learning model to accurately classify whether or not the patients in the dataset have diabetes or not?	
+
+
+You will be evaluated on how well you perform the following steps:
+	Missing data handling
+	Data Preprocessing (with an explanation of why you are doing that particular step).
+	Exploratory Data Analysis
+	Features Extraction
+	Model building
+	Code Commenting
+	Documentation
+
+What to submit:
+	A python file or Jupyter File with code and comments.
+	Detailed documentation of all the steps and results.  
+
+Submission details : 
+	Compress all the files and submit the compressed file with name as RollNo1_RollNo2_RollNo3.zip 
+	Send the compressed file to 'iiitb.ml.2019@gmail.com' with Subject as Assignemnt_1_RollNo1_RollNo2_RollNo3 
+	Deadline : 11:59:00 PM 15th Septemnber 2019 
+
+
+Some details about the dataset:
+
+     Pregnancies: Number of times pregnant
+
+     Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+
+     BloodPressure: Diastolic blood pressure (mm Hg)
+
+     SkinThickness: Triceps skinfold thickness (mm)
+
+     Insulin:2-Hour serum insulin (mu U/ml)
+
+     BMI: Body mass index (weight in kg/(height in m)^2)
+
+     DiabetesPedigreeFunction:
+          It provided some data on diabetes mellitus history in relatives and the genetic relationship of those relatives to the patient. This measure of genetic influence gives an idea of the hereditary risk one might have with the onset of diabetes mellitus.
+
+
+On request from many student here is an example of data handling in iris flower dataset:
+    If you find petal length to be practically not possible value. It is up to you to either drop the datapoint or replace the value of the data point with some value which you feel most appropriative(reason should be mentioned in the documentation).
+
+
+Note:
+	a) The more you play around with the data the more you get a better understanding of it.	
+	b) Maximum size of the group is 3. 
+	c) Late submission of the assignment will result in marks deduction.
+	d) Any Plagiarism found will result in Zero marks for the assignment.
+
+	For any doubts write to 'iiitb.ml.2019@gmail.com' with Subject as "Doubt clarification"
+
